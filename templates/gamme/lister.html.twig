@@ -1,0 +1,7 @@
+{% extends "base.html.twig" %}
+{% block body %}
+<h1>Listes des gammes</h1>
+		{% for value in gammes %}
+			<ul><li>{{value|title}}</li></ul>
+		{% endfor %}
+{% endblock %}
