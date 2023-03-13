@@ -35,8 +35,9 @@ namespace App\Controller {
         #[Route('/test3')]
         function test3()
         {
-            var_dump("salut tous le monde");
-            die;
+            // var_dump("salut tous le monde");
+            //die;
+            return $this->render("test/test3.html.twig");
         }
     }
 }
